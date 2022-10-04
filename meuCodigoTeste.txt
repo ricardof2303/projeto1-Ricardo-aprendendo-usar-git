@@ -1,1 +1,25 @@
 Olá meu nome é Ricardo
+
+git init
+
+git status
+
+git add -- ou git add .
+
+git add "meuCodigoTeste.txt"
+
+git comit -m "comit inicial"
+
+git config --global user.email "ricardorefinado@gmail.com"
+
+git config --global user.name "RicardoFerreira"
+
+git comit -m "comit inicial"
+
+git remote add origin https://github.com/ricardof2303/projeto1-Ricardo-aprendendo-usar-git
+
+git push
+
+git push --set-upstream origin master
+
+
