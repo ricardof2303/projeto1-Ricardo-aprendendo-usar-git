@@ -23,3 +23,54 @@ git push
 git push --set-upstream origin master
 
 
+
+MODIFICAÇÃO
+
+após fazer a modificação no arquivo:
+ 	git status
+	modified:   meuCodigoTeste.txt
+ 	git add .
+ 	git commit -m "acrescentei alguns comandos git"
+ 	git push
+
+VERFICAR HISTÓRICO DA VERSÃO DO CÓDIGO, ATUALIZAÇÃO 
+
+	git reflog
+		a versão mais atual é a versão do topo
+
+COMO NAVERGAR ENTRE VERSÕES DO CÓDIGO 
+	git reset --hard AQUI DIDITA O CÓDIGO DA VERSÃO QUE SE QUER IR
+
+------------------------------
+git branch
+
+CRIAR NOVA BRANCH
+	git branch staging
+
+MUDAR DE BRANCH
+	git chekout stading
+
+FAZER UM MERGE PARA TRAZER O PROGETO PRA BRANCH PRINCIPAL
+	git chekout master
+	git pull - SERVE PARA ATUALIZAR A BRANCH
+	git merge stading
+	git push
+	-------------------------
+	1- git pull da branch principal
+	2- gerar uma nova branch a partir da branch principal
+	3- trabalhar e adicionar novas funcionalidades na vova branch que criou
+	4- finalizar o trabalho na branch temporária
+	5- git chekout na branch principal
+	6- git pull
+	7- mergiar (mesclar) o código da da branch temporária com a branch principal(depois testar)
+	8- git push da pranch principal
+
+PULL REQUEST
+	git push
+	compare & pull request
+	creat pull request
+	merge pull request
+
+GIT IGNORE
+	touch .gitignore
+	CRIA UM ARQUIVO NA PASTA GIT, EU ABRO E ESCREVO O NOME DA PASTA QEU EU NÃO QUERO QUE SEJA ADICIONADA
