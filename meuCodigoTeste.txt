@@ -10,7 +10,7 @@ git add "meuCodigoTeste.txt"
 
 git comit -m "comit inicial"
 
-git config --global user.email "ricardorefinado@gmail.com"
+git config --global user.email "ricardo@gmail.com"
 
 git config --global user.name "RicardoFerreira"
 
